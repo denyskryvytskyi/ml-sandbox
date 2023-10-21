@@ -1,6 +1,6 @@
 # ml-sandbox
 
-- [Google ML Bootcamp Kaggle competition](https://www.kaggle.com/competitions/ukraine-ml-bootcamp-2023): TOP 15 (from 314 participants) with 0.9337 accuracy.  [Kaggle notebook](https://www.kaggle.com/code/denyskryvytskyi/top-15-yoga-pose-tf-efficientnet-densenet), where I've used the Tensorflow library to predict Yoga Pose by images using custom CNN and Transfer learning (EfficientNet, DenseNet) with fine-tuning.
+- [Google ML Bootcamp Kaggle competition](https://www.kaggle.com/competitions/ukraine-ml-bootcamp-2023): TOP 15 (from 314 participants) with 0.9337 accuracy.  [Kaggle notebook](https://www.kaggle.com/code/denyskryvytskyi/yoga-pose-prediction-tf-efficientnet-densenet), where I've used the Tensorflow library to predict Yoga Pose by images using custom CNN and Transfer learning (EfficientNet, DenseNet) with fine-tuning.
 - [Load Default Prediction](https://github.com/denyskryvytskyi/ml-sandbox/tree/main/Kaggle/Loan-default-prediction) Coursera Competition: Top 100 with 0.77 accuracy. I've used different algorithmas and libraries:   
    - Scikit-learn for Random forest, KNN, SVM algorithms with data transofrmation pipelines of preprocessing.
    - Tensorflow for neural networks.
