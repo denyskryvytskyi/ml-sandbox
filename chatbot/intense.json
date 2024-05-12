@@ -1,0 +1,213 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Привіт",
+                "Вітаю",
+                "Здоровенькі",
+                "Добрий день",
+                "Добрий вечір",
+                "Добрий ранок",
+                "Доброго дня",
+                "Hi",
+                "Hello",
+                "Howdy",
+                "Hi there",
+                "Hello there",
+                "Hey",
+                "Hiya",
+                "Good to see you again",
+                "Long time no see",
+                "Good morning!",
+                "Good afternoon!",
+                "Good evening!",
+                "Hey there!",
+                "Hey friend!",
+                "Hi friend!",
+                "Hey buddy!",
+                "Hi buddy!",
+                "Hey pal!",
+                "Hi pal!",
+                "Hey dude!",
+                "Hi dude!",
+                "Hey man!",
+                "Hi man!",
+                "Hey sir!",
+                "Hi ma'am!",
+                "Hi sir!",
+                "Hello ma'am!",
+                "Hello sir!"
+            ],
+            "response": [
+                "Привіт!",
+                "Вітаю, дообродію!",
+                "Доброго дня, пане!",
+                "Hi",
+                "Hello",
+                "Hello, my friend!",
+                "How can I help?",
+                "Greetings",
+                "How many I assist you?",
+                "Nice to meet you",
+                "Pleased to make your acquaintance",
+                "What brings you here today?",
+                "How's your day going so far?",
+                "How are you doing?",
+                "What's new?",
+                "Is there anything I can help you with?",
+                "How may I assist you today?",
+                "Nice to see you again",
+                "It's good to be in touch with you",
+                "What's happening?",
+                "How have you been?",
+                "Great to see you!",
+                "What's on your mind?"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Розкажи про себе",
+                "Хто ти",
+                "Що ти",
+                "what can you do",
+                "tell me about yourself"
+            ],
+            "response": [
+                "Я чатбот, віртуальний помічник."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "З чи ти можеш допомогти",
+                "Допомога",
+                "Твої функції",
+                "Що ти вмієш",
+                "Can you help me?",
+                "I need assistance",
+                "How do I do this?",
+                "Can you guide me?",
+                "What should I do?"
+            ],
+            "response": [
+                "Я вмію багато:\n 1. Згенерувати QR-код.\n 2. Дати інформацію про погоду. 3. Розказати жарт. 4. Цікаві факти зі світу технологій, науки."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Дякую",
+                "Я ціную це",
+                "Допомогло, дякую",
+                "Thanks",
+                "Thank you",
+                "I appreciate it"
+            ],
+            "response": [
+                "Завжди радий допомогти!",
+                "Звертайся ще!",
+                "Це моя робота!",
+                "Був радий стати у нагоді!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Бувай",
+                "Бувай здоров",
+                "На все добре",
+                "Всього найкращого",
+                "До вечора",
+                "До завтра",
+                "Прощавай",
+                "Па",
+                "Па-Па",
+                "bye",
+                "goodbye",
+                "see you later",
+                "take care",
+                "farewell",
+                "have a nice day",
+                "have a good one",
+                "catch you later"
+            ],
+            "response": [
+                "ПА-ПА!",
+                "Бувай!",
+                "Приходь ще!",
+                "До завтра!",
+                "Бувай. Буду поліпшувати свої знання для наступної зустрічі!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Розкажи анекдот",
+                "анекдот",
+                "розміши",
+                "підніми настрій",
+                "мені трохи сумно",
+                "сумно",
+                "розвесели",
+                "tell me a joke",
+                "funny",
+                "make me laugh",
+                "why did the chicken cross the road"
+            ],
+            "response": [
+                "Заходить програміст в бар...",
+                "Well, let's see"
+            ]
+        },
+        {
+            "tag": "qr_code",
+            "patterns": [
+                "Згенеруй будь-ласка qr-код",
+                "кюар код",
+                "qr",
+                "qr-код",
+                "qr-code",
+                "qr code",
+                "Could you generate a qr-code for me",
+                "generate qr-code"
+            ],
+            "response": [
+                "Так, тримай свій QR-код: "
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "Прогноз погоди",
+                "Прогноз погоди на завтра в Києві",
+                "Яка погода завтра в Києві",
+                "weather"
+            ],
+            "response": [
+                "Тепло, +25 градусів по цельсію"
+            ]
+        },
+        {
+            "tag": "technology_fact",
+            "patterns": [
+                "Цікавий факт про технології",
+                "Технології"
+            ],
+            "response": [
+                "Технології це круто!"
+            ]
+        },
+        {
+            "tag": "science_fact",
+            "patterns": [
+                "Цікавий факт про науку",
+                "Наука"
+            ],
+            "response": [
+                "Наука це круто!"
+            ]
+        }
+    ]
+}
